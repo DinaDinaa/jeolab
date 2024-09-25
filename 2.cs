@@ -1,4 +1,4 @@
-Console.WriteLine("Write your number");
+﻿Console.WriteLine("Write your number");
 var usernumber = int.Parse(Console.ReadLine());
 
 if (usernumber == 0)
