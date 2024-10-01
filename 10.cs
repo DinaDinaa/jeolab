@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Write amount:");
-var amount = float.Parse(Console.ReadLine());
+var amount = decimal.Parse(Console.ReadLine());
 Console.WriteLine($" amount is {amount} $");
 var discount1 = amount - 0.1 * amount;
 var discount2 = amount - 0.2 * amount;
