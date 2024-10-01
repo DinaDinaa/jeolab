@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("How old are you?");
 var age = int.Parse(Console.ReadLine());
-const answer = ("yes");
+var answer = ("yes");
 if (age >= 18)
 {
     Console.WriteLine("Your salary per year:");
