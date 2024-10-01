@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Enter your password");
 var userinput = (Console.ReadLine());
-const rightpassword = ("secret123");
+var rightpassword = ("secret123");
 if (userinput == rightpassword)
 {
     Console.WriteLine("Access Granted");
